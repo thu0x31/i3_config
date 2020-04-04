@@ -288,6 +288,7 @@ exec --no-startup-id clipit
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 exec --no-startup-id fcitx
+exec --no-startup-id xwinwrap -fs -ov -ni -- mpv --hwdec=vdpau --vo=gpu --profile=gpu-hq -loop 0 -wid WID ~/Videos/loopSlmder.mp4
 
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
